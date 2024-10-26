@@ -25,13 +25,13 @@
             <td>{{ $row->status }}</td>
             <td>
               <a href="{{ route('backend.user.edit', $row->id) }}">
-                <button type="button">Ubah</button>
+                <button type="button" class="btn btn-warning">Ubah</button>
               </a>
 
               <form action="{{ route('backend.user.destroy', $row->id) }}" method="POST">
                 @method('delete')
                 @csrf
-                <button type="submit">Hapus</button>
+                <button type="submit" class="btn btn-danger">Hapus</button>
               </form>
             </td>
           </tr>
