@@ -123,4 +123,8 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    // CUSTOM
+    'timezone' => 'Asia/Jakarta',
+    'locale' => 'id'
+
 ];
