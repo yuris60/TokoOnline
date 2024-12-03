@@ -9,6 +9,13 @@ Project ini merupakan project Laravel pada mata kuliah Web Programming II di Uni
 ## Relasi Tabel
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/relasi.jpg" width="600" alt="Laravel Logo"></a></p>
 
+## Pra-Install
+Sebelumnya pastikan menginstall terlebih dahulu kebutuhan sistem untuk menggunakan project ini.
+- [x] Composer
+- [x] Web Server <code>Laragon, Xampp atau sejenisnya</code>
+- [x] Web Browser <code>Chrome, Mozilla atau sejenisnya</code>
+- [x] Node.js <code>(opsional)</code>
+
 ## Cara Install
 1. Cloning repository ini melalui terminal.
 ```
@@ -51,6 +58,10 @@ php artisan migrate:fresh --seed
 <td><h3 align="center">Tambah Foto Produk</h3><img src="public/backend/image/ss_tambah_gambar_produk.png"></td>
 </tr>
 </table>
+
+## Video Tutorial
+Project ini pun sudah didokumentasikan dan dipublikasi melalui akun Youtube. Silakan kunjungi link <a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2">berikut</a>.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/preview_tutorial.jpg" width="500" alt="Text Logo Project"></a></p>
 
 ## Lisensi
 
