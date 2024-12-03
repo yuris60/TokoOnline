@@ -1,5 +1,5 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_ubsi.png" width="200" alt="Logo UBSI"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_text2.png" width="300" alt="Text Logo Project"></a></p>
+<p align="center"><img src="public/backend/image/logo_ubsi.png" width="200" alt="Logo UBSI"></p>
+<p align="center"><img src="public/backend/image/logo_text2.png" width="300" alt="Text Logo Project"></p>
 
 
 ## Pengenalan Project
@@ -63,7 +63,7 @@ php artisan migrate:fresh --seed
 
 ## Video Tutorial
 Project ini pun sudah didokumentasikan dan dipublikasi melalui akun Youtube. Silakan kunjungi link <a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2">berikut</a>.
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/preview_tutorial.jpg" width="500" alt="Text Logo Project"></a></p>
+<p align="center"><a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2" target="_blank"><img src="public/backend/image/preview_tutorial.jpg" width="500" alt="Text Logo Project"></a></p>
 
 ## Lisensi
 
