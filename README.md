@@ -1,5 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_ubsi.png" width="200" alt="Laravel Logo"></a></p>
-<p align="center" style="background-color: #000"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_text.png" width="300" alt="Laravel Logo"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_text.png" width="300" alt="Laravel Logo" style="background-color: #000"></a></p>
 
 
 ## Pengenalan Project
