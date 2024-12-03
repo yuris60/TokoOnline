@@ -30,9 +30,9 @@
                     <td>{{ $row->kategori->nama_kategori }}</td>
                     <td>
                       @if ($row->status == 1)
-                        <span class="badge bg-success">Tayang</span>
+                        <span class="badge bg-success">Tampil</span>
                       @elseif($row->role == 0)
-                        <span class="badge bg-danger">Tidak Tayang</span>
+                        <span class="badge bg-danger">Tidak Tampil</span>
                       @endif
                     </td>
                     <td>{{ $row->nama_produk }}</td>
