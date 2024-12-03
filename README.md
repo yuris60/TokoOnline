@@ -11,7 +11,9 @@ Project ini merupakan project Laravel pada mata kuliah Web Programming II di Uni
 
 ## Pra-Install
 Sebelumnya pastikan menginstall terlebih dahulu kebutuhan sistem untuk menggunakan project ini.
+- [x] Git
 - [x] Composer
+- [x] Code Editor <code>VS Code, Sublime Text atau sejenisnya</code>
 - [x] Web Server <code>Laragon, Xampp atau sejenisnya</code>
 - [x] Web Browser <code>Chrome, Mozilla atau sejenisnya</code>
 - [x] Node.js <code>(opsional)</code>
