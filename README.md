@@ -1,5 +1,5 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_ubsi.png" width="200" alt="Laravel Logo"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_text.png" width="300" alt="Laravel Logo" style="background-color: #000"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_ubsi.png" width="200" alt="Logo UBSI"></a></p>
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/logo_text2.png" width="300" alt="Text Logo Project"></a></p>
 
 
 ## Pengenalan Project
@@ -52,7 +52,7 @@ php artisan migrate:fresh --seed
 </tr>
 </table>
 
-## Licensi
+## Lisensi
 
 Project ini mengacu pada modul praktik dari mata kuliah Web Programming II Universitas Bina Sarana Informatika (UBSI). Project ini bersifat open-source untuk edukasi.
 <blockquote>Kuliah...? BSI AJA !!</blockquote>
