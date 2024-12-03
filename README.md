@@ -11,7 +11,7 @@ Project ini sudah didokumentasikan dan dipublikasi melalui akun Youtube. Silakan
 <p align="center"><a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2" target="_blank"><img src="public/backend/image/preview_tutorial.jpg" width="600" alt="Text Logo Project"></a></p>
 
 ## Relasi Tabel
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="public/backend/image/relasi.jpg" width="600" alt="Laravel Logo"></a></p>
+<p align="center"><img src="public/backend/image/relasi.jpg" width="600" alt="Laravel Logo"></p>
 
 ## Pra-Install
 Sebelumnya pastikan menginstall terlebih dahulu kebutuhan sistem untuk menggunakan project ini.
