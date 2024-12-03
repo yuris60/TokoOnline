@@ -231,8 +231,7 @@
       <!-- footer -->
       <!-- ============================================================== -->
       <footer class="footer text-center">
-        All Rights Reserved by Matrix-admin. Designed and Developed by
-        <a href="https://www.wrappixel.com">WrapPixel</a>.
+        Copyright &copy; 2024 | Toko Online | Web Programming UBSI
       </footer>
       <!-- ============================================================== -->
       <!-- End footer -->
@@ -318,6 +317,30 @@
         }
       });
     });
+  </script>
+  <script>
+    // Preview Foto
+    function previewFoto() {
+      const foto = document.querySelector('input[name="foto"]');
+      const fotoPreview = document.querySelector('.foto-preview');
+      fotoPreview.style.display = 'block';
+      const fotoReader = new FileReader();
+      fotoReader.readAsDataURL(foto.files[0]);
+      fotoReader.onload = function(fotoEvent) {
+        fotoPreview.src = fotoEvent.target.result;
+        fotoPreview.style.width = '100%';
+      }
+    }
+  </script>
+
+  {{-- CK Editor --}}
+  <script src="{{ asset('backend/plugins/ckeditor/ckeditor.js') }}"></script>
+  <script>
+    ClassicEditor
+      .create(document.querySelector('#ckeditor'))
+      .catch(error => {
+        console.error(error);
+      });
   </script>
 </body>
 

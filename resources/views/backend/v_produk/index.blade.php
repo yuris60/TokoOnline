@@ -39,6 +39,10 @@
                     <td>Rp{{ number_format($row->harga, 0, ',', '.') }}</td>
                     <td>{{ $row->stok }}</td>
                     <td>
+                      <a href="{{ route('backend.produk.show', $row->id) }}" title="Ubah Data">
+                        <button type="button" class="btn btn-info btn-sm"><i class="fas fa-plus"></i> Gambar</button>
+                      </a>
+
                       <a href="{{ route('backend.produk.edit', $row->id) }}">
                         <button type="button" class="btn btn-warning btn-sm" title="Ubah Data">
                           <i class="far fa-edit"></i> Ubah

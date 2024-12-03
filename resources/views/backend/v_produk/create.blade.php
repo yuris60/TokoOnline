@@ -44,7 +44,7 @@
 
             <div class="form-group">
               <label>Detail</label>
-              <textarea name="detail" class="form-control @error('detail') is-invalid @enderror">{{ old('detail') }}</textarea>
+              <textarea name="detail" class="form-control @error('detail') is-invalid @enderror" id="ckeditor">{{ old('detail') }}</textarea>
               @error('detail')
                 <span class="invalid-feedback alert-danger" role="alert">{{ $message }}</span>
               @enderror
@@ -83,7 +83,7 @@
         <div class="row mt-3">
           <div class="col-md-12 text-center">
             <button type="submit" class="btn btn-primary">Simpan</button>
-            <a href="{{ route('backend.user.index') }}">
+            <a href="{{ route('backend.produk.index') }}">
               <button type="button" class="btn btn-secondary">Kembali</button>
             </a>
           </div>
