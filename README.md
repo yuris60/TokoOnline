@@ -63,7 +63,7 @@ php artisan migrate:fresh --seed
 
 ## Video Tutorial
 Project ini sudah didokumentasikan dan dipublikasi melalui akun Youtube. Silakan kunjungi link <a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2">berikut</a>.
-<p align="center"><a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2" target="_blank"><img src="public/backend/image/screenshot/ss_preview_tutorial.jpg" width="600" alt="Playlist Youtube"></a></p>
+<p align="center"><a href="https://www.youtube.com/playlist?list=PLQ-zS5A7YYio0505gQRdu9v4CJT--WSW2" target="_blank"><img src="public/backend/image/screenshot/ss_preview_tutorial.png" width="600" alt="Playlist Youtube"></a></p>
 
 ## Lisensi
 
