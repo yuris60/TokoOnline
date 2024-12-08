@@ -2,6 +2,7 @@
 @section('content')
   <div class="card">
     <div class="card-body">
+      <h4 class="card-title">{{ $judul }}</h4>
       <form action="{{ route('backend.produk.store') }}" method="POST" enctype="multipart/form-data">
         @csrf
 
@@ -43,7 +44,7 @@
 
             <div class="form-group">
               <label>Detail</label>
-              <textarea name="detail" class="form-control @error('detail') is-invalid @enderror"></textarea>
+              <textarea id="ckeditor" name="detail" class="form-control @error('detail') is-invalid @enderror"></textarea>
               @error('detail')
                 <span class="invalid-feedback alert-danger" role="alert">{{ $message }}</span>
               @enderror
@@ -81,7 +82,7 @@
         <div class="row mt-3">
           <div class="col-md-12 text-center">
             <button type="submit" class="btn btn-primary">Simpan</button>
-            <a href="{{ route('backend.user.index') }}">
+            <a href="{{ route('backend.produk.index') }}">
               <button type="button" class="btn btn-secondary">Kembali</button>
             </a>
           </div>
