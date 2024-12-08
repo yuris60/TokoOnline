@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Helpers\ImageHelper;
 use App\Models\User;
+use Barryvdh\DomPDF\Facade\Pdf;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 
@@ -143,6 +144,42 @@ class UserController extends Controller
         $user->update($validatedData);
         return redirect()->route('backend.user.index')->with('success', 'Data berhasil diperbaharui');
     }
+
+    /**
+     * Show form data User.
+     */
+    public function formUser()
+    {
+        return view('backend.v_user.form', [
+            'judul' => 'Laporan Data User',
+        ]);
+    }
+
+    public function cetakUser(Request $request)
+    {
+        // Menambahkan aturan validasi
+        $request->validate([
+            'tanggal_awal' => 'required|date',
+            'tanggal_akhir' => 'required|date|after_or_equal:tanggal_awal',
+        ]);
+
+        $tanggalAwal = $request->input('tanggal_awal');
+        $tanggalAkhir = $request->input('tanggal_akhir');
+        $query = User::whereBetween('created_at', [$tanggalAwal, $tanggalAkhir])->orderBy('id', 'desc');
+        $user = $query->get();
+
+        $data = [
+            'judul' => 'Laporan User',
+            'tanggalAwal' => $tanggalAwal,
+            'tanggalAkhir' => $tanggalAkhir,
+            'cetak' => $user
+        ];
+
+        $pdf = Pdf::loadView('backend.v_user.cetak', $data);
+        // return $pdf->download('Laporan User.pdf');
+        return $pdf->stream('Laporan User.pdf');
+    }
+
 
     /**
      * Remove the specified resource from storage.
