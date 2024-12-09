@@ -42,7 +42,7 @@ DB_PASSWORD=
 ```
 php artisan key:generate
 ```
-5. Generate Storage Link melalui terminal.
+5. Generate Storage Link melalui terminal agar dapat mengakses storage.
 ```
 php artisan storage:link
 ```
