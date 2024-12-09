@@ -2,7 +2,8 @@
 @section('content')
   <div class="card">
     <div class="card-body">
-      <div class="row">
+      <h5 class="card-title">{{ $judul }}</h5>
+      <div class="row mt-3">
         <div class="col-md-6">
           <div class="form-group">
             <select name="kategori_id" class="form-select @error('kategori_id') is-invalid @enderror" disabled>
