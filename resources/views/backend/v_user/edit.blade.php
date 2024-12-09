@@ -2,6 +2,7 @@
 @section('content')
   <div class="card">
     <div class="card-body">
+      <h5 class="card-title">{{ $judul }}</h5>
       <form action="{{ route('backend.user.update', $edit->id) }}" method="POST" enctype="multipart/form-data">
         @method('put')
         @csrf

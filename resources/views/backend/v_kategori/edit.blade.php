@@ -4,6 +4,7 @@
     <div class="col-12">
       <div class="card">
         <div class="card-body">
+          <h5 class="card-title">{{ $judul }}</h5>
           <form action="{{ route('backend.kategori.update', $edit->id) }}" method="POST">
             @method('put')
             @csrf

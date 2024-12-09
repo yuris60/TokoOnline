@@ -164,6 +164,19 @@
                 </li>
               </ul>
             </li>
+            <li class="sidebar-item"> <a class="sidebar-link has-arrow waveseffect waves-dark" href="#"
+                aria-expanded="false"><i class="mdi mdi-file-pdf-box"></i><span class="hide-menu">Laporan </span></a>
+              <ul aria-expanded="false" class="collapse first-level">
+                <li class="sidebar-item"><a href="{{ route('backend.laporan.formuser') }}" class="sidebar-link"><i
+                      class="mdi mdi-chevron-right"></i><span class="hide-menu"> User
+                    </span></a>
+                </li>
+                <li class="sidebar-item"><a href="{{ route('backend.laporan.formproduk') }}" class="sidebar-link"><i
+                      class="mdi mdi-chevron-right"></i><span class="hide-menu"> Produk
+                    </span></a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </nav>
         <!-- End Sidebar navigation -->
@@ -231,8 +244,7 @@
       <!-- footer -->
       <!-- ============================================================== -->
       <footer class="footer text-center">
-        All Rights Reserved by Matrix-admin. Designed and Developed by
-        <a href="https://www.wrappixel.com">WrapPixel</a>.
+        Copyright &copy; 2024 | Toko Online | by Yuris Alkhalifi
       </footer>
       <!-- ============================================================== -->
       <!-- End footer -->
