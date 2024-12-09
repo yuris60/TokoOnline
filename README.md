@@ -42,7 +42,11 @@ DB_PASSWORD=
 ```
 php artisan key:generate
 ```
-5. Migrasikan tabel beserta seeder melalui terminal.
+5. Generate Storage Link melalui terminal.
+```
+php artisan storage:link
+```
+6. Migrasikan tabel beserta seeder melalui terminal.
 ```
 php artisan migrate:fresh --seed
 ```
